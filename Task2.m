@@ -97,9 +97,7 @@ mask3 = uint8(mask3);
 im(:,:,1)=im(:,:,1).*mask3; 
 im(:,:,2)=im(:,:,2).*mask3; 
 im(:,:,3)=im(:,:,3).*mask3; 
-figure(5)
-imshow(rgb2hsv(im))
-impixelinfo();
+
 %taking the largest yellow blob from the picture
 im2 = im;
 CC = bwconncomp(im);
