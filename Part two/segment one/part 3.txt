@@ -1,0 +1,7 @@
+C- we can use fft and zero out everything but the lowest 5% frequencies colms and rows.
+then we save the transformed img and when we want to show it we would use ifft.
+
+F- we would expect that the more dominant empitudes would construct the img better then just low frequancies
+but in truth the low frequancies alone resemble the img much better.
+
+G- the difference is mostly that this time the frequancies we chose is not continuous and therefore the img would appear kind of odd. 

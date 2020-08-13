@@ -1,0 +1,14 @@
+A- the better operator is based on what do we look for. if we want to keep evry edge (for example the edge of the table in the picture)
+we would better use sobel as it clearly outline all edges, and if we're only interested in the main edges we would rather use canny 
+as its much clearer. it looks as if roberts has some "noise" to it.
+
+B- looking at the noised picture its obvious that roberts is the best edge detection operator. sobel is unusable and canny cant detect all of the edges.
+C- a=0.5 yeald the best image. the operator seems to be kind of "sharpening" by subtracting the scaled laplacian from the image.
+using higher scale sharp the image too much while lower scale makes it somewhat blurry.
+
+D- we can see the noise amplifier most notably in the 0.75 scale. the operator use the laplacian, a second derivitive, so as most
+discrete derivitives it would emplify discontinuities such as s&p noise. we can think about it like the "slope" of the intensity
+is very large in place of discontinuity.
+
+E- to combat discontinuity we need to use an integral based filter and not derivitive based one. such filter that use the neighbourhood
+of the point to determine its value. i used median filter to filter out the s&p noise and only then used the operator in question. 

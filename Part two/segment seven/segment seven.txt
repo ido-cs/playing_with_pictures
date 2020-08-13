@@ -1,0 +1,7 @@
+B- the only "flaws" in the picture is the horse. the car was not affected due to it having set height while every part of the horse has
+different height. the algorithm "moved" upward and so it got the horse feet before it got its head so it looks a little messed.
+
+C- this time we moved with the movment of the horse, each line we collected had the horse in it and therefore it seems as if there is one
+big horse in the picture.
+
+D- this time we moved oposite to the movment of the horse and therefore had fewer frames with the horse inside of them, so it looks squished.

@@ -1,0 +1,6 @@
+B- in all 20 frames, there were two failers. frame 13 and frame 20 (note that the algorithm found the most corr with the same object in both frames)
+
+frame 13 was caused because the bird was hidden behind something and so there wasent any correlection between it and a "noraml" bird as it just didnt look like one
+frame 20 was caused because the bird was tilted a bit too much, we had the bird being horisontal as the template so when it was tilted it didnt look like the same bird.
+
+i attached frames 1,3,10,18 just for examples for when the alogrithm was right- it was right on all of the frames bar the two that was noted above. 

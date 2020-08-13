@@ -1,0 +1,5 @@
+C- looking at the keys we can see that using the vertical kernel we keep and enhance the vertical lines in the image and by
+using the horizontal one we keep and enhance the horisontal parts of the image.
+
+E- we used median filter and not avg one because the image is binnary and we would wish to keep it that way. using avg one would turn the
+image into grayscale.

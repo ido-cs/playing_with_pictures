@@ -1,0 +1,5 @@
+A,B- the lighting in the picture is not consistent, some of the image has shadows while some of it is lit.
+it can be seen via how much contrast there is between the upper part and the lower part of the "part 2" picture.
+
+C- the contrast in the picture is quite low, the picture looks "split" between all cubes.
+D- to remove the "cube cutting" affect further we can use some kind of blur or a small maiden filter.
